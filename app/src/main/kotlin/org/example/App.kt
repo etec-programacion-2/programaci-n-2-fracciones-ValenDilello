@@ -4,5 +4,11 @@
 package org.example
 
 fun main() {
-    println("Hola app!")
+    val miFraccion = Fraccion(5, 3) 
+
+    print("Mi fracción es: ")
+    miFraccion.mostrar() 
+    println("numerador: ${miFraccion.numerador}") 
+    println("denominador: ${miFraccion.denominador}")
 }
+
