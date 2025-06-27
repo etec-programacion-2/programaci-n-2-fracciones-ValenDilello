@@ -17,5 +17,18 @@ fun main() {
     } else {
         println("No se pudo crear la fracción.")
     }
+
+    val f1 = Fraccion(1, 4)
+    val f2 = Fraccion(1, 6)
+
+    val suma = f1 + f2
+    val resta = f1 - f2
+
+    println("\n--- Operaciones entre fracciones ---")
+    println("Fracción 1: ${f1.mostrar()}")
+    println("Fracción 2: ${f2.mostrar()}")
+    println("Suma: ${suma.mostrar()} = ${suma.resolver()}")
+    println("Resta: ${resta.mostrar()} = ${resta.resolver()}")
 }
+
 

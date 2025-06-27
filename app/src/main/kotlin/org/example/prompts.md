@@ -11,3 +11,5 @@ Qué está mal en el codigo que no esté siguiendo esta consigna? )
 -   no anda, te paso mi codigo de fraccion  y luego el app para que me digas porque da error al     compilar.
     (Fraccion.kt code)
     (App.kt code)
+
+-   
