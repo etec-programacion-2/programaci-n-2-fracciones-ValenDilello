@@ -31,4 +31,8 @@ class Fraccion(
     override fun toString(): String {
         return "$numerador/$denominador"
     }
+
+    fun resolver(): Double {
+        return numerador.toDouble() / denominador
+    }
 }
