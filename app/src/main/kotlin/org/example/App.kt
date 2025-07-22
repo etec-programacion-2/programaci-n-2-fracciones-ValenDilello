@@ -33,4 +33,13 @@ fun main() {
     println("Resta: ${resta.mostrar()} = ${resta.resolver()}")
     println("Multiplicación: ${multiplicacion.mostrar()} = ${multiplicacion.resolver()}")
     println("División: ${division.mostrar()} = ${division.resolver()}")
+
+    println("\n--- Comparaciones ---")
+    println("¿Fracción 1 es mayor que Fracción 2? ${f1.esMayor(f2)}")
+    println("¿Fracción 1 es menor que Fracción 2? ${f1.esMenor(f2)}")
+    println("¿Fracción 1 es igual a Fracción 2? ${f1 == f2}")
+
+    println("\n--- Desde decimal ---")
+    val desdeDecimal = Fraccion.desdeDecimal(0.25)
+    println("0.25 como fracción: ${desdeDecimal.mostrar()}")
 }
