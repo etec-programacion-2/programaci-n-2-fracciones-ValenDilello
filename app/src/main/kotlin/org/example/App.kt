@@ -1,7 +1,7 @@
 package org.example
 
 fun main() {
-    var miFraccion: Fraccion? = null // el signo de interrogación indica que la variable puede ser nula, o sea que la variable puede no tener valor, y el "= null" indica que no se le asigna un valor inicial
+    var miFraccion: Fraccion? = null
 
     try {
         miFraccion = Fraccion(5, 3)
@@ -11,7 +11,7 @@ fun main() {
 
     if (miFraccion != null) {
         println("Mi fracción es: ${miFraccion.mostrar()}")
-        println("Y tiene numerador = ${miFraccion.numerador}") 
+        println("Y tiene numerador = ${miFraccion.numerador}")
         println("Y denominador = ${miFraccion.denominador}")
         println("El resultado de la fracción es: ${miFraccion.resolver()}")
     } else {
@@ -23,12 +23,14 @@ fun main() {
 
     val suma = f1 + f2
     val resta = f1 - f2
+    val multiplicacion = f1 * f2
+    val division = f1 / f2
 
     println("\n--- Operaciones entre fracciones ---")
     println("Fracción 1: ${f1.mostrar()}")
     println("Fracción 2: ${f2.mostrar()}")
     println("Suma: ${suma.mostrar()} = ${suma.resolver()}")
     println("Resta: ${resta.mostrar()} = ${resta.resolver()}")
+    println("Multiplicación: ${multiplicacion.mostrar()} = ${multiplicacion.resolver()}")
+    println("División: ${division.mostrar()} = ${division.resolver()}")
 }
-
-
