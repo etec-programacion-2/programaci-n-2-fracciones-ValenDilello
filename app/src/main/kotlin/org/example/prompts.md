@@ -1,5 +1,5 @@
 # Prompts de la AI
-
+# ChatGPT
 (punto 1)
 (le pasamos el codigo:
 Implementar el constructor principal que reciba numerador y denominador como parámetros.
@@ -63,6 +63,8 @@ Qué está mal en el codigo que no esté siguiendo esta consigna? )
     
 -   creame un ejemplo para que pueda implementar la funcion fraccion
 -   tengo que llamar a la funcion class en el app.kt para que se muestre en el terminal?
+-   me da error, no hay alguna otra forma?
+
 
 > [!IMPORTANT]
 > (perdón profe, cuando volví a mi casa me di cuenta que no te habia puesto casi ningún prompt. el mario nos dijo q habias faltado por un problema de salud, esperamos que no sea muy grave y que te mejores pronto! Saludos)
