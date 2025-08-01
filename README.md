@@ -12,6 +12,9 @@
 
 **Fecha de entrega:** 
 
+> [!WARNING]
+> El programa no crashea, se ejecuta bien, el problemna es que no me deja ingresar la opcion desde consola para manejar la calculadora. Lo intenté profe, sorry ;(
+
 ---
 
 ## Consigna de Trabajo Práctico: Operaciones con Fracciones
