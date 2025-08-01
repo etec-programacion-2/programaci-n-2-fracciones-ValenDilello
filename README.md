@@ -6,11 +6,14 @@
 
 ## Información del Alumno
 
-**Nombre y Apellido:** [Escribir aquí tu nombre y apellido]
+**Nombre y Apellido:** Valentino Dilello
 
-**Curso:** [Escribir aquí tu curso]
+**Curso:** 4°I
 
-**Fecha de entrega:** [Escribir aquí la fecha de entrega]
+**Fecha de entrega:** 
+
+> [!WARNING]
+> El programa no crashea, se ejecuta bien, el problemna es que no me deja ingresar la opcion desde consola para manejar la calculadora. Lo intenté profe, sorry ;(
 
 ---
 
